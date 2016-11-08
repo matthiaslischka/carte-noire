@@ -17,7 +17,7 @@ $dark:           #2D2D29;
 $medium:         #3B3B35;
 $light-medium:   #969696;
 $dark-blue:      #215A6D;
-$light-blue:     #3CA2A2;
+$light-olive:     #cece48;
 $green:          #92C7A3;
 $light:          #DFECE6;
 $white:          #FFFFFF;
@@ -50,7 +50,7 @@ body {
 }
 
 a, a:active {
-	color: $light-blue;
+	color: $light-olive;
 	text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ ul {
 	padding-right: 30px;
 	margin-top: 20px;
 	box-shadow: 0px 0px 0px 0px, 0px 6px 12px rgba(0, 0, 0, 0.2);
-	border-bottom: 5px solid $light-blue;
+	border-bottom: 5px solid $light-olive;
 }
 
 #my-menu {
@@ -145,7 +145,7 @@ ul {
 	}
 
 	a:hover {
-		color: $light-blue;
+		color: $light-olive;
 	}
 
 	.pages {
@@ -232,12 +232,12 @@ ul {
 	}
 
 	.content-panel:nth-of-type(1) {
-		border-bottom: 10px solid $light-blue;
+		border-bottom: 10px solid $light-olive;
 	}
 
 	.author-header {
 		font-family: 'Montserrat', sans-serif;
-		color: $light-blue;
+		color: $light-olive;
 		margin-top: 0px;
 		padding-top: 15px;
 		font-size: 30px;
@@ -249,7 +249,7 @@ ul {
 
 		@media (min-width: $screen-md-min) {
 			font-size: 60px;
-			margin-top: -20px;
+			margin-top: 0px;
 		}
 	}
 
@@ -286,7 +286,7 @@ ul {
 
 		h2 {
 			margin-bottom: 30px;
-			color: $light-blue;
+			color: $light-olive;
 			font-size: 26px;
 		}
 
@@ -326,7 +326,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $light-olive;
 		}
 	}
 
@@ -353,7 +353,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $light-olive;
 		}
 
 		ul {
@@ -456,7 +456,7 @@ ul {
 		}
 
 		a:hover {
-			color: $light-blue;
+			color: $light-olive;
 		}
 
 		h4 {
@@ -679,7 +679,7 @@ ul {
 				}
 
 				a:hover {
-					color: $light-blue;
+					color: $light-olive;
 				}
 
 			}
@@ -789,7 +789,7 @@ ul {
 		margin-top: 30px;
 
 		a {
-			color: $light-blue;
+			color: $light-olive;
 		}
 	}
 
@@ -830,8 +830,8 @@ ul {
 }
 
 .btn-categories {
-	background-color: $light-blue;
-	border-color: $light-blue;
+	background-color: $light-olive;
+	border-color: $light-olive;
 	color: $white;
 	&:hover {
 		background-color: $dark-blue;
@@ -851,10 +851,10 @@ ul {
 }
 
 .dropdown-menu {
-	background-color: $light-blue;
+	background-color: $light-olive;
 	color: $white;
 	> li > a {
-		background-color: $light-blue;
+		background-color: $light-olive;
 		color: $white;
 		&:hover {
 			background-color: $dark-blue;

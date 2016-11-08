@@ -8,6 +8,7 @@ make-smaller-titles: true
   <div class="row index all-posts">
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
+    <h2 class="header categories" itemprop="headline"><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></h2>
     <h2 class="header" itemprop="headline">All posts</h2>
     <h2 class="header categories" itemprop="headline"><small>grouped by
 
@@ -50,6 +51,7 @@ make-smaller-titles: true
     {% endif %}
 
     {% endfor %}
+      <h2 class="header categories" itemprop="headline"><a href="{{ site.baseurl }}/"><i class="fa fa-home"></i> Home</a></h2>
     </div>
 
   </div>
