@@ -1,2 +1,7 @@
 source 'https://rubygems.org'
-gem 'jekyll-admin', group: :jekyll_plugins
+
+gem "jekyll"
+gem "html-proofer"
+gem "sinatra-cross_origin"
+
+gem "jekyll-admin", group: :jekyll_plugins
