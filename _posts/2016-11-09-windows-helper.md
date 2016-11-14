@@ -62,3 +62,12 @@ Write Special Helpers
 
 ### Chrome
 Chrome has one killer-feature to me and that is that you can define custom searches on 
+
+### KeePass
+Store save, generated passwords with [KeePass](http://keepass.info/) and let it auto-type your login-data whenever needed. Generate super complex passwords unique for every login and don't worry about a thing no more.
+
+### Git
+Keep all your nerd stuff version controlled in some git repository. I store my scripts and tools on [github](https://github.com/). I use [Travis CI](https://travis-ci.org/) to build and test all my stuff all the time. I even test static single page html files with tools like [html proofer](https://github.com/gjtorikian/html-proofer).
+
+### Dropbox - or so
+Use some file syncing tool to always have all your data at hand. In addition it's a great way to preserve your file for all time.
