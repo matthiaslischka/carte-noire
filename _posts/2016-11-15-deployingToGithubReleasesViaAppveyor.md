@@ -6,6 +6,7 @@ layout: post
 Today I went through the pain of automating my [release](https://help.github.com/categories/releases/) deployment via [appveyor](https://www.appveyor.com/). Of course it's easy and I'm stupid since it was painful for me, but however, now that everything is up and running I wanted to share my results.
 
 What I wanted:
+
 * Deploy one zip file
 * Everything is configured via the appveyor.yml file within the repository
 * Deploy only the master but every push to the master
