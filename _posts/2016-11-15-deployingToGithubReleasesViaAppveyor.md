@@ -7,6 +7,7 @@ Today I went through the pain of automating my [release](https://help.github.com
 
 What I wanted:
 
+* Automated deployment to Github Releases
 * Deploy one zip file
 * Everything is configured via the appveyor.yml file within the repository
 * Deploy only the master but every push to the master
