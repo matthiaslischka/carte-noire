@@ -1,5 +1,5 @@
 ---
-title: Antipattern Standup.<br />Let's talk about...
+title: Antipattern Standup. Let's talk about...
 layout: post
 ---
 
@@ -25,12 +25,14 @@ I will do what I am assigned for on the taskboard right now. I will do the next 
 The obstacles I have been talking about to the people who can help me the whole day so far.
 
 ## The three antipatterns
-My biggest concern about the standup and the three questions is, that they are used as a compensation for a bad development process. The most important tool in an agile project is a decent taskboard. Physical or digital, it has to be able to tell at a glance what is done, what is open and what is in progress. The DEVs should see who is coding what and what's left to do. The testers should see what is ready for testing and what is done for good. The POs should be able to see which stories are ready for demonstration and the PM should not use the taskboard at all. Consequently, if you are interested in any of the three questions from above - just take a look on your own.
+My biggest concern about the standup and the three questions is, that they are used as a compensation for a bad development process. You should never need a standup.
 
-Furthermore nobody should wait for the standup for any reason whatsoever. Especially not for taking a new task or pointing out an issue. I have seen this in the past over and over again and that's a real problem. Whenever you need a new task you should be able to just take the next one according to priority. Whenever you are confronted with an issue or don't know how to progress tackle it right away and talk to whoever you need to talk to. If you don't know who to talk to ask someone - don't waste time waiting because the standup meeting is scheduled for 10 am. Is it realy important? Why wait? Communication all the time.
+The most important tool in an agile project is a decent taskboard. Physical or digital, it has to be able to tell at a glance what is in progress, what is done and what is next. The DEVs should see who is coding what and what's left to do. The testers should see what is ready for testing and what is done for good. The POs should be able to see which stories are ready for demonstration and the PM should not use the taskboard at all. Consequently, if you are interested in any of the three questions from above - just take a look on your own.
+
+Never wait for the standup for any reason whatsoever. Especially not for taking a new task or pointing out an issue. I have seen this in the past over and over again and that's a real problem. Whenever you need a new task you should be able to just take the next one according to priority. Whenever you are confronted with an issue or don't know how to progress tackle it right away and talk to whoever you need to talk to. If you don't know who to talk to ask someone - don't waste time waiting because the standup meeting is scheduled for 10 am. Is it realy important? Why wait? Communication all the time.
 
 ## Benefits of standups
-So why are daily standups still a big thing? Because they can tell you a lot about how you function as a team and how healthy your development process is. When the daily standup meeting is something your team values you should take the next step and investigate why. What are the problems your team solves in the standup? Is the standup really the best place to solve that problem? Is the taskboard as functional as it should be? Is your team's communication on the right level? Are tasks clear enough that anyone could start any of them anytime? Are problems detected and tackled the earliest possible?
+So why are daily standups still a big thing? Because they can tell you a lot about how you function as a team and how healthy your development process is. When the daily standup meeting is something your team values you should take the next step and investigate why. What are the problems your team is addressing in the standup? Is the standup really the best place to pick up that problems? Is the taskboard as functional as it should be? Is your team's communication on the right level? Are tasks clear enough that anyone could start any of them anytime? Are problems detected and tackled the earliest possible?
 
 Every new team usually values the daily standups for a good reason. There is a lot of uncertainty and the standup serves as a safety net. You just need to be aware of that in order to get the biggest benefit out of it. Do not just do it because scrum wants you to! Do, review, improve. And maybe at some point your team will come to the conclusion that they don't need standups every day anymore.
 ![daily standup by dilbert](http://assets.amuniversal.com/b0eb3da0470f01301099001dd8b71c47)
