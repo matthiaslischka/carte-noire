@@ -7,7 +7,7 @@ url: "https://matthiaslischka.github.io/"
 title_description: "Bored developer sharing things he found googling his way through life.<br />Lorem Ipsum. Just do git. Foo Bar. 'or 1=1."
 title_image: "https://www.gravatar.com/avatar/00cb52564e474a4c98f7c6bc8eac4d05?s=500&d=mm"
 google_analytics: "UA-37678138-1"
-disqus_account: 
+disqus_account: matthiaslischka
 github_repository: https://github.com/matthiaslischka/matthiaslischka.github.io
 addthis_id:
 post_limit: 5
