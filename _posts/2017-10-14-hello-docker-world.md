@@ -13,6 +13,7 @@ I use [choclatey ](https://chocolatey.org) to install all my windows programs. T
 cinst docker -y
 cinst docker-for-windows -y
 ```
+Switch from linux to windows containers
 ![Switch to windows containers]({{ "/assets/docker_switch_to_windows_containers.png"}})
 ## download
 [Decide which image](https://hub.docker.com) you need and download it. This will take time - depending on the size of the image. Fortunately, this has to be done only once.
