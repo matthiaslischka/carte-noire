@@ -2,6 +2,7 @@
 title: Do not comment. Refactor.
 layout: post
 ---
+
 Easy as that. Almost always comments are just an indicator that your code is still not readable enough.
 ```
 //'home' is the default tab
@@ -18,6 +19,6 @@ From time to time comments also try to be something that they should not try to 
 
 And then, of course, there will always be the *refactoring-leftover* comment aka “I don’t want to delete that quite yet” or the *repeat-the-method-name* comment aka "``/*does that*/ public void doesThat()``" or the *I’m-funny* comment aka "``//magic happens here``"...
 
-![useless comment](https://upload.wikimedia.org/wikipedia/commons/a/a6/Wet_Floor.jpg)
+![useless comment]({{"/assets/comments_wet_floor.jpg"}})
 
 You geht the point. Get rid of those right way and refactor away all the rest...
