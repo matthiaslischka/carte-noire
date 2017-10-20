@@ -25,6 +25,20 @@ docker pull microsoft/mssql-server-windows-developer
 docker run -d -p 1433:1433 -e sa_password=<sa_password> -e ACCEPT_EULA=Y --name sql microsoft/mssql-server-windows-developer
 ```
 **!** The ```<sa_password>``` has to match the [mssql server password policy](https://docs.microsoft.com/en-us/sql/relational-databases/security/password-policy). Otherwise, the setup will fail and you have no idea why.
+
+[edit 20.10.2017] **!** Those settings will be stored as environment variables on the container. On every startup of the container a script (`c:\start.ps1`) will be executed that resets the sa password to this initial password. The initial password, stored as environment variable, can be promted with `SET sa_password`.
+When no password is passed in the `docker run` command the environment varibale is initialized to "_", the sa user will be disabled and the sa password will not be resetted at startup.
+
+Enable sa user and set password - via sqlcmd (`docker exec -it sql sqlcmd`):
+```cmd
+1> USE [master]
+2> GO
+1> ALTER LOGIN [sa] WITH PASSWORD=N'<SA PASSWORD>'
+2> GO
+1> ALTER LOGIN [sa] ENABLE
+2> GO
+```
+
 ## Use
 Get the container IP with this command:
 {% raw %}
