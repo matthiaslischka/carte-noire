@@ -38,7 +38,7 @@ start the sql container: `docker start sql`<br />
 stop the sql container: `docker stop sql `<br />
  list running containers: `docker ps`<br />
 list all containers: `docker ps -a`<br />
-open a cmd.exe on the container: `cmd docker exec -it sql cmd`<br />
-open sqlcmd on the container: `cmd docker exec -it sql sqlcmd`
+open a cmd.exe on the container: `docker exec -it sql cmd`<br />
+open sqlcmd on the container: `docker exec -it sql sqlcmd`
 ## Conclusion
 Cool first impression. Will use it much more in the future and challenge it against the real world of software development.
